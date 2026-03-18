@@ -47,16 +47,58 @@ function draw_car()
 */
 
 
-//WIP code
-//Delta damages
-delta_damages=[front_l,front_r,back_l,back_r];
+//Draw deltas
 
+
+//Frame deltas
+spr_delta0=[frame_fl,frame_fr,frame_bl,frame_br]
+
+//Body panel deltas
+//Whole deltas
 spr_delta1=[spr_delta_fl,spr_delta_fr,spr_delta_rl,spr_delta_rr]
-for(var i=0;i<array_length(spr_delta1);i++)
+//Damage 33% deltas
+spr_delta2=[trans_front_left,trans_front_right,trans_rear_left,trans_rear_right]
+//Damage 66% deltas
+spr_delta3=[dropped_fl,dropped_fr,dropped_bl,dropped_br]
+
+//Draw frame deltas first
+for(var i=0;i<array_length(spr_delta0);i++)
 {
-	draw_sprite_ext(spr_delta1[i],0,x,y,image_xscale,image_yscale,image_angle,c_white,1);
+	draw_sprite_ext(spr_delta0[i],0,x,y,image_xscale,image_yscale,image_angle,c_white,1);
 	
 }
+
+//Draw whole deltas
+for(var i=0;i<4;i++)
+{
+	//Draw deltas only for whole damage
+	if(delta_damages[i]<1)
+	{
+		//Damage <30%
+		if(delta_damages[i]<0.3)
+		{
+			draw_sprite_ext(spr_delta1[i],0,x,y,image_xscale,image_yscale,image_angle,c_white,1);
+		}
+		//Damage 30-59%
+		else if((delta_damages[i]>=0.3)&&(delta_damages[i]<0.6))
+		{
+			draw_sprite_ext(spr_delta2[i],0,x,y,image_xscale,image_yscale,image_angle,c_white,1);
+
+		}
+		//Damage 60% and more until 100%
+		else
+		{
+			draw_sprite_ext(spr_delta3[i],0,x,y,image_xscale,image_yscale,image_angle,c_white,1);
+		}
+	}
+}
+
+
+
+
+
+
+
 
 
 /*

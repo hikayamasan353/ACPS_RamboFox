@@ -13,32 +13,45 @@ yy2=0
 
 
 //Drawing a car shadow
+/*
 if !global.light=c_black
 {
-	draw_sprite_ext(sprite_index,0,x+3,y+3,image_xscale*size_scale/1.5,image_yscale*size_scale/1.5,image_angle,c_black,.5)
+	draw_sprite_ext(sprite_index,0,x,y,image_xscale*size_scale/1.5,image_yscale*size_scale/1.5,image_angle,c_black,.5)
 }
+*/
+
+
+
+
+
 
 /////////////////////////////////////////////////////
 
 //Drawing wheels
 
 //Front wheels have steering rotation
-xx=x+lengthdir_x(14*size_scale/1.5,image_angle+21*size_scale/1.5)
-yy=y+lengthdir_y(14*size_scale/1.5,image_angle+21*size_scale/1.5)
-draw_sprite_ext(spr_biggerwheel,0,xx,yy,image_xscale*size_scale/1.2,image_yscale*size_scale/1.2,image_angle+stearing_angle*10+min(drive_speed/2,max(0,back_l))*5,c_white,1)
+xx=x+lengthdir_x(9*size_scale,image_angle+21*size_scale)
+yy=y+lengthdir_y(9*size_scale,image_angle+21*size_scale)
+draw_sprite_ext(spr_biggerwheel,0,xx,yy,image_xscale*size_scale,image_yscale*size_scale,image_angle+stearing_angle*10+min(drive_speed/2,max(0,back_l))*5,c_white,1)
 
-xx=x+lengthdir_x(14*size_scale/1.5,image_angle-21*size_scale/1.5)
-yy=y+lengthdir_y(14*size_scale/1.5,image_angle-21*size_scale/1.5)
-draw_sprite_ext(spr_biggerwheel,0,xx,yy,image_xscale*size_scale/1.2,image_yscale*size_scale/1.2,image_angle+stearing_angle*10-min(drive_speed/2,max(0,back_r))*5,c_white,1)
+
+xx=x+lengthdir_x(9*size_scale,image_angle-21*size_scale)
+yy=y+lengthdir_y(9*size_scale,image_angle-21*size_scale)
+draw_sprite_ext(spr_biggerwheel,0,xx,yy,image_xscale*size_scale,image_yscale*size_scale,image_angle+stearing_angle*10-min(drive_speed/2,max(0,back_r))*5,c_white,1)
+
 
 //Rear wheels don't.
-xx=x+lengthdir_x(4*size_scale/1.5,image_angle+90*size_scale/1.5)
-yy=y+lengthdir_y(4*size_scale/1.5,image_angle+90*size_scale/1.5)
-draw_sprite_ext(spr_biggerwheel,0,xx,yy,image_xscale*size_scale/1.2,image_yscale*size_scale/1.2,image_angle,c_white,1)
+xx=x+lengthdir_x(10*size_scale,180+image_angle+21*size_scale)
+yy=y+lengthdir_y(10*size_scale,180+image_angle+21*size_scale)
+draw_sprite_ext(spr_biggerwheel,0,xx,yy,image_xscale*size_scale,image_yscale*size_scale,image_angle,c_white,1)
 
-xx=x+lengthdir_x(4*size_scale/1.5,image_angle-90*size_scale/1.5)
-yy=y+lengthdir_y(4*size_scale/1.5,image_angle-90*size_scale/1.5)
-draw_sprite_ext(spr_biggerwheel,0,xx,yy,image_xscale*size_scale/1.2,image_yscale*size_scale/1.2,image_angle,c_white,1)
+xx=x+lengthdir_x(10*size_scale,180+image_angle-21*size_scale)
+yy=y+lengthdir_y(10*size_scale,180+image_angle-21*size_scale)
+draw_sprite_ext(spr_biggerwheel,0,xx,yy,image_xscale*size_scale,image_yscale*size_scale,image_angle,c_white,1)
+
+//TODO: Replace with better wheel rendering algorithm
+
+
 
 ////////////////////////////////////////////////////////////
 

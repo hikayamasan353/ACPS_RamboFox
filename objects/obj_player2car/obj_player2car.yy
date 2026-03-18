@@ -35,8 +35,8 @@
   "name":"obj_player2car",
   "overriddenProperties":[],
   "parent":{
-    "name":"Car simulation",
-    "path":"folders/Objects/Car simulation.yy",
+    "name":"WIP_2players",
+    "path":"folders/Objects/Car simulation/WIP_2players.yy",
   },
   "parentObjectId":null,
   "persistent":false,

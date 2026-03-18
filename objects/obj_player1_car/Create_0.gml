@@ -4,6 +4,7 @@ temp=scr_return90s(random(360))
 image_angle=90
 //view_angle=90
 
+//Initialize the car
 
 scr_init();
 image_index=0
@@ -67,11 +68,10 @@ if (external_replace==1)
 
 __view_set( e__VW.XView, 0, x-__view_get( e__VW.WView, 0 )/2 )
 __view_set( e__VW.YView, 0, y-__view_get( e__VW.HView, 0 )/2 )
-is_dropped_bl=0
-is_dropped_br=0
-is_dropped_fl=0
-is_dropped_fr=0
-action_set_alarm(1, 1);
+
+
+
+alarm[1]=1
 can_press=1
 
 is_reverse=0

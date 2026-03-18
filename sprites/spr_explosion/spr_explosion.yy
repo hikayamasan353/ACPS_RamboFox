@@ -42,7 +42,7 @@
   "origin":9,
   "parent":{
     "name":"Lighting engine BETA 5",
-    "path":"folders/Sprites/Lighting engine BETA 5.yy",
+    "path":"folders/Sprites/System/Lights/Lighting engine BETA 5.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

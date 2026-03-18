@@ -1,4 +1,7 @@
-collision_step();
+// Inherit the parent event
+event_inherited();
+
+collision_step()
 
 //Audio
 if can_play
@@ -17,4 +20,5 @@ if sprite_index=spr_cone_stand
 	image_index=0
 	sprite_index=spr_cone_anim
 }
+
 

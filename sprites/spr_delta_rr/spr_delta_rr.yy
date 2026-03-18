@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"whole_deltas",
-    "path":"folders/Sprites/polygon_car_texturing_GTA/deltas/whole_deltas.yy",
+    "path":"folders/Sprites/Car textures/deltas/whole_deltas.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

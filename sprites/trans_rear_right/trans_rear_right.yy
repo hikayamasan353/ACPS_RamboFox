@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"transitionals",
-    "path":"folders/Sprites/polygon_car_texturing_GTA/deltas/transitionals.yy",
+    "path":"folders/Sprites/Car textures/deltas/transitionals.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -10,7 +10,6 @@ draw_sprite_ext(spr_sparkle,0,x-global.surfacex,y-global.surfacey,1.3,1.3,-point
 draw_sprite_ext(spr_reflection,image_index,x-global.surfacex,y-global.surfacey+24,2,3,dir,image_blend,.4);
 */
 
-draw_sprite_ext(spr_glare,0,x,y,0.3,0.3,-point_direction(__view_get( e__VW.XView, 0 )+200,__view_get( e__VW.YView, 0 )+200,obj_car_parent.x,obj_car_parent.y),image_blend,1);
 
 draw_set_blend_mode(bm_normal);
 

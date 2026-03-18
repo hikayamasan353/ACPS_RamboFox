@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"panneldrops",
-    "path":"folders/Sprites/polygon_car_texturing_GTA/deltas/panneldrops.yy",
+    "path":"folders/Sprites/Car textures/deltas/panneldrops.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

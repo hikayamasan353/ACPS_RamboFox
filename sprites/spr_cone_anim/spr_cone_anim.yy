@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Cone",
+    "path":"folders/Sprites/Map props/Cone.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

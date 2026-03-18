@@ -26,4 +26,4 @@ sprite_index=spr_cone_anim
 //Cone physics bouncing WIP
 //action_set_motion(other.direction, other.speed+1);
 //motion_set(other.direction,other.speed+1);
-motion_set(other.direction,other.speed+(car_speed*mass)+1);
+motion_set(other.direction,other.speed+(car_speed+1));

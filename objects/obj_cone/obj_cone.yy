@@ -17,8 +17,8 @@
   "name":"obj_cone",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Map props",
+    "path":"folders/Objects/Map props.yy",
   },
   "parentObjectId":{
     "name":"obj_clutter",

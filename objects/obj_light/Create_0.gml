@@ -11,5 +11,3 @@ dir=point_direction(x,y,oo.x,oo.y)
 //Pole physics
 
 pole=instance_create_depth(x,y+32,0,obj_pole);
-pole.x=x
-pole.y=y

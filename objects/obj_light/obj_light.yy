@@ -10,8 +10,8 @@
   "name":"obj_light",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Map props",
+    "path":"folders/Objects/Map props.yy",
   },
   "parentObjectId":null,
   "persistent":false,

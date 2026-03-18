@@ -1,14 +1,23 @@
-//Draw a light
-
-draw_set_blend_mode(bm_add);
-image_blend=c_white
-draw_sprite_ext(spr_light,0,x,y,1,1,image_angle,c_white,.5)
-draw_set_blend_mode(bm_normal);
-
 
 //Draw a light pole
 
 draw_sprite(spr_lightpole, 0, x, y);
+
+
+//Draw a light
+
+draw_set_blend_mode(bm_add);
+image_blend=c_yellow
+draw_sprite_ext(spr_light,0,x,y,1,1,image_angle,c_white,.1)
+draw_sprite_ext(spr_glare,0,x,y,0.3,0.3,-point_direction(__view_get( e__VW.XView, 0 )+200,__view_get( e__VW.YView, 0 )+200,obj_car_parent.x,obj_car_parent.y),image_blend,.1);
+draw_sprite_ext(spr_sparkle,0,x,y,1.3,1.3,-point_direction(__view_get( e__VW.XView, 0 )+200,__view_get( e__VW.YView, 0 )+200,obj_car_parent.x,obj_car_parent.y)+random1,image_blend,.1);
+
+
+
+draw_set_blend_mode(bm_normal);
+image_blend=c_white
+
+
 
 
 

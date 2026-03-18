@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"chassie",
-    "path":"folders/Sprites/polygon_car_texturing_GTA/deltas/chassie.yy",
+    "path":"folders/Sprites/Car textures/deltas/chassie.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

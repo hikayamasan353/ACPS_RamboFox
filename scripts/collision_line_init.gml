@@ -1,0 +1,4 @@
+_u9f63s1g4bc2i3fg1v78s2t=object_add()
+object_set_mask(_u9f63s1g4bc2i3fg1v78s2t,argument0)
+_dt89f5e8b2d6f74h4r2d5t8=instance_create(x,y,_u9f63s1g4bc2i3fg1v78s2t)
+global._e56sd54f=1

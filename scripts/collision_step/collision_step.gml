@@ -1,3 +1,6 @@
+
+//Runs collision step events with solids
+
 function collision_step() {
 	if(!place_meeting(x,y,other)) exit;
 	var g;

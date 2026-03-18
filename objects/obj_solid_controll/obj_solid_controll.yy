@@ -14,8 +14,8 @@
   "name":"obj_solid_controll",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Parents",
+    "path":"folders/Objects/Physics/Parents.yy",
   },
   "parentObjectId":null,
   "persistent":false,

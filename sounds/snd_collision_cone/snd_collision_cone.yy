@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"snd_collision_cone",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"audiogroup_collisions",
+    "path":"audiogroups/audiogroup_collisions",
   },
   "bitDepth":1,
   "bitRate":192,

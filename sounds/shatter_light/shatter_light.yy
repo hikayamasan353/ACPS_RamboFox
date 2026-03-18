@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"shatter_light",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"audiogroup_collisions",
+    "path":"audiogroups/audiogroup_collisions",
   },
   "bitDepth":1,
   "bitRate":192,
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"shatter_light",
   "type":0,
-  "volume":0.3,
+  "volume":0.34,
 }

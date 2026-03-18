@@ -85,9 +85,8 @@ function scr_drift() {
 
 	rr=abs(10-speed)
 
-	{
-		tt=0
-	}
+
+	tt=0
 	if stearing_angle>0
 	{
 		tt=1

@@ -1,0 +1,2 @@
+if sprite_index=spr_smoke
+sprite_index=spr_dirtpuff

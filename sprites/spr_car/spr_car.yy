@@ -23,7 +23,7 @@
   ],
   "name":"spr_car",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Car textures",
     "path":"folders/Sprites/Car textures.yy",
@@ -77,7 +77,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":16,
+    "xorigin":32,
     "yorigin":17,
   },
   "swatchColours":null,

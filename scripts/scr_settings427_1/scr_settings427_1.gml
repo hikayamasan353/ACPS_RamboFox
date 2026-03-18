@@ -57,6 +57,8 @@ function scr_settings427b() {
 	view_devider=2
 	view_multiplier=1
 
+
+	//Legacy RamboFox code to be deprecated
 	front_l=0 //health for front and rear pannels.
 	          //if the value is -30, it is treated as if it has armour
 	          //if the value is 30, it is treated as if it is already damaged
@@ -74,6 +76,8 @@ function scr_settings427b() {
 	directory_fr="delta1/f_right.bmp"
 	directory_bl="delta1/b_left.bmp"
 	directory_br="delta1/b_right.bmp"
+	
+	//spr_delta1=[
 
 	//busted deltas below here:
 	directory_fl2="delta2/f_left.bmp"
@@ -88,10 +92,10 @@ function scr_settings427b() {
 	directory_br3="delta3/b_right_drop.bmp"
 
 	//frame deltas here:
-	f_fl="delta4/f_left_frame.bmp"
-	f_fr="delta4/f_right_frame.bmp"
-	b_fl="delta4/b_left_frame.bmp"
-	b_fr="delta4/b_right_frame.bmp"
+	f_fl="delta0/f_left_frame.bmp"
+	f_fr="delta0/f_right_frame.bmp"
+	b_fl="delta0/b_left_frame.bmp"
+	b_fr="delta0/b_right_frame.bmp"
 
 	global.light=c_gray //ambient light used by the lights and shadow engine
 

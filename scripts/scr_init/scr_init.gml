@@ -23,13 +23,26 @@ function scr_init()
 	global.size_dif=size_scale/1.5
 	is_handbrake=0
 	
+	////////////
+	// Damage //
+	////////////
+	
 	//Damage variables by RamboFox
-	is_dead=0
-	is_smoking=0
+	is_dead=0 //Is the car totaled?
+	is_smoking=0 //Is the car smoking?
+	//Dropped delta flags
 	is_dropped_bl=0
 	is_dropped_br=0
 	is_dropped_fl=0
 	is_dropped_fr=0
+	
+	//Delta damages
+	//0 - fine, 1 - broken
+	damage_front_l=0
+	damage_front_r=0
+	damage_rear_l=0
+	damage_rear_r=0
+	delta_damages=[damage_front_l,damage_front_r,damage_rear_l,damage_rear_r];
 	
 	
 	sound_right=0
@@ -77,10 +90,6 @@ function scr_init()
 	wheel_wobble_variable=0
 
 
-	//front_l=0
-	//front_r=0
-	//back_l=0
-	//back_r=0
 
 	//wheel damage:
 	lf=0

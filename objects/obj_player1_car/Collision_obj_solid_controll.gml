@@ -1,3 +1,7 @@
+/*
+
+//Unnecessary mess
+
 var xx,yy,xx2,yy2;
 
 if room=room_drift_track
@@ -43,17 +47,38 @@ if room=room_drift_track
 	{back_r=30}
 }
 
+if(action_if_number(obj_crash, 0, 0))
+{
+	if(room=room_drift_track)
+	{
+		action_create_object(obj_crash, 0, 0);
+	}
+	
+}
 
-script_execute(collision_step,0,0,0,0,0);
-var __b__;
-__b__ = action_if_number(obj_crash, 0, 0);
-if __b__
+*/
+
+
+//Collisions 
+collision_step();
+
+//if(collision_circle(x,y,2.5*size_scale,)
+
+
+//Compute delta damages
+
+for(var i=0;i<array_length(delta_damages);i++)
 {
-__b__ = action_if_variable(room, room_drift_track, 0);
-if __b__
-{
-action_create_object(obj_crash, 0, 0);
+	delta_damages[i]+=0.1
+	if(delta_damages[i]>1)
+		delta_damages[i]=1
 }
-}
-reverse_var=0
+
+//TODO: Damage deltas separately
+
+
+
+
+//Speed dampening
+reverse_var=reverse_var/1.005
 drive_speed=drive_speed/1.005

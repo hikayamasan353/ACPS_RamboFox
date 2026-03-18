@@ -15,6 +15,7 @@ if !reverse_var=0
 
 
 //Drift room logic
+/*
 if room=room_drift_track
 	if reverse_switch=0
 		if instance_number(obj_points)=0
@@ -24,3 +25,4 @@ if room=room_drift_track
 			instance_create(0,0,obj_points)
 			}
 		}
+*/

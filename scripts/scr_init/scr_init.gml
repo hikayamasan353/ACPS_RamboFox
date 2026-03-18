@@ -36,17 +36,20 @@ function scr_init()
 	sound_left=0
 	spin_diff=0
 	on_dirt=0
-	//if room=room2
-	//{image_angle=270}
-	//if room=room5
-	//{image_angle=90}
+
 	
 	
 	//Room specific data
+	/*
+		//if room=room2
+	//{image_angle=270}
+	//if room=room5
+	//{image_angle=90}
 	if room=room_drift_track
 		image_angle=90
 	if room=room_autosoccer
 		image_angle=270
+	*/
 
 	
 	stearing_angle=0

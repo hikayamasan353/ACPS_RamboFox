@@ -6,8 +6,8 @@
   "name":"obj_solids",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Physics core",
+    "path":"folders/Objects/Physics core.yy",
   },
   "parentObjectId":null,
   "persistent":false,

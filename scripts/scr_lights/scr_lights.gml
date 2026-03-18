@@ -6,7 +6,7 @@ function scr_lights() {
 	dis=40
 	dir=point_direction(x,y,x+lengthdir_x(-500,image_angle),y+lengthdir_y(-500,image_angle))
 	//col=collision_line_ext(x,y,dir,dis-60)
-	col=scr_collision_line_ext(x,y,dir,dis,obj_border)
+	col=scr_collision_line_ext(x,y,dir,dis,obj_solids)
 	alpha=(40-col)/40
 	angl=image_angle
 	angl=scr_return90s(angl)

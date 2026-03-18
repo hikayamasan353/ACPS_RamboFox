@@ -1,5 +1,6 @@
-if room=room_autosoccer
-{instance_destroy()}
+
+
+
 ddirection=0
 is_on=0
 collide=0

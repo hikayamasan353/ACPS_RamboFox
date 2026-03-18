@@ -42,7 +42,7 @@
     ],
     "top":0,
   },
-  "origin":3,
+  "origin":4,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -96,7 +96,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":50,
     "yorigin":2,
   },
   "swatchColours":null,

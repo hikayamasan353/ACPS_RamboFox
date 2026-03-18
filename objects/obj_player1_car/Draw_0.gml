@@ -121,6 +121,7 @@ draw_set_color(c_white)
 
 
 //Autosoccer room
+/*
 if room=room_autosoccer
 	if view_current=0
 	{
@@ -132,5 +133,6 @@ if room=room_autosoccer
 		dir=point_direction(xx,yy,obj_soccerball.x,obj_soccerball.y)
 		draw_arrow(xx+lengthdir_x(19,dir),yy+lengthdir_y(19,dir),xx+lengthdir_x(33,dir),yy+lengthdir_y(33,dir),10)
 	}
+	*/
 /* */
 /*  */

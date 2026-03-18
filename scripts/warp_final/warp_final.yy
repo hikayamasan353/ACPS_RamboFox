@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"warp_final",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"warp_final",
+  "parent":{
+    "name":"polygon_car_texturing_GTA",
+    "path":"folders/Scripts/polygon_car_texturing_GTA.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

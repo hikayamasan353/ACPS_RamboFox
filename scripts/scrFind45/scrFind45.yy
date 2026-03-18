@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scrFind45",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scrFind45",
+  "parent":{
+    "name":"Utilities",
+    "path":"folders/Scripts/Utilities.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

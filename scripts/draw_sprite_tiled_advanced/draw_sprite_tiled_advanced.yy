@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"draw_sprite_tiled_advanced",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_sprite_tiled_advanced",
+  "parent":{
+    "name":"Super_Line_Scripts",
+    "path":"folders/Scripts/Super_Line_Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

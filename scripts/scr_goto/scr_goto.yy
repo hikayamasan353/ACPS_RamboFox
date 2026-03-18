@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_goto",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_goto",
+  "parent":{
+    "name":"polygon_car_texturing_GTA",
+    "path":"folders/Scripts/polygon_car_texturing_GTA.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

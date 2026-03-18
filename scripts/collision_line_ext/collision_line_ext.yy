@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"collision_line_ext",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"collision_line_ext",
+  "parent":{
+    "name":"Super_Line_Scripts",
+    "path":"folders/Scripts/Super_Line_Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

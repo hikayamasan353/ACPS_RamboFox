@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"action_move_start",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"action_move_start",
+  "parent":{
+    "name":"action",
+    "path":"folders/Scripts/compatibility/action.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
